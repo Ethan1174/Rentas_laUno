@@ -9,7 +9,7 @@ $contraseña=$_POST['contra'];
 $telE=$_POST['cel'];
 $dephotel=$_POST['dep_or_hotel'];
 
-$query = "insert into dueño_renta (nombre_due, apellidoPa, apellidoMa, correo, num_tel, contra, dep_hotel)
+$query = "insert into due_renta (nombre_due, apellidoPa, apellidoMa, correo, num_tel, contra, dep_hotel)
 values ('$nomEst', '$apellidoPE', '$apellidoME', '$correo', '$telE','$contraseña','$dephotel')";
 
 $resultado = $mysqli ->query ($query);

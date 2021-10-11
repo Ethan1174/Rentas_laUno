@@ -42,7 +42,7 @@
                     <a href="#"><i class="fas fa-home"></i><span>Inicio</span></a>
                     <a href="#"><i class="fas fa-home"></i><span>Hotel</span></a>
                     <a href="#"><i class="fas fa-home"></i><span>Departamentos</span></a>
-                    <a href="#"><i class="fas fa-home"></i><span>Mi Perfil</span></a>
+                    <a href="#"><i class="fas fa-sign-in-alt m-1"></i><span>Mi Perfil</span></a>
                 </nav>
             </div>
             <main class="main col">
@@ -51,7 +51,7 @@
         <br><br>
         <center><h2>Mis Departamentos</h2></center>
         <br>
-        <div class="container">
+        <div class="container-fluid">
         
         <table class="table">
             <thead class="thead-dark">
