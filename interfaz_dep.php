@@ -26,7 +26,7 @@
                         <a href="#" class="px-3 text-light perfil dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user-circle user"></i></a>
 
                         <div class="dropdown-menu" aria-labelledby="navbar-dropdown">
-                            <a class="dropdown-item menuperfil cerrar" href="#"><i class="fas fa-sign-out-alt m-1"></i>Salir
+                            <a class="dropdown-item menuperfil cerrar" href="index.php"><i class="fas fa-sign-out-alt m-1"></i>Salir
                             </a>
                         </div>
                     </li>
@@ -39,9 +39,9 @@
         <div class="row">
             <div class="barra-lateral col-12 col-sm-auto">
                 <nav class="menu d-flex d-sm-block justify-content-center flex-wrap">
-                    <a href="#"><i class="fas fa-home"></i><span>Inicio</span></a>
-                    <a href="#"><i class="fas fa-home"></i><span>Hotel</span></a>
-                    <a href="#"><i class="fas fa-home"></i><span>Departamentos</span></a>
+                    <a href="registro.php"><i class="fas fa-home"></i><span>Inicio</span></a>
+                    <a href=""><i class="fas fa-home"></i><span>Hotel</span></a>
+                    <a href="interfaz_dep.php"><i class="fas fa-home"></i><span>Departamentos</span></a>
                     <a href="#"><i class="fas fa-sign-in-alt m-1"></i><span>Mi Perfil</span></a>
                 </nav>
             </div>
@@ -68,8 +68,8 @@
             <tr>
                 <td><input type="text"class="form-control mb-2 mr-sm-2"  placeholder="Numero de departamento"name="Num_Dep"></td>
                 <td><input input type="text" placeholder="Recamaras"class="form-control mb-2 mr-sm-2" name="Recam" ></td>
-                <td><input type="text"class="form-control mb-2 mr-sm-2"  placeholder="Baño(s)"name="Num_Dep" ></td>
-                <td><input type="text"class="form-control mb-2 mr-sm-2"  placeholder="Servicios"name="Num_Dep" ></td>
+                <td><input type="text"class="form-control mb-2 mr-sm-2"  placeholder="Baño(s)"name="Bath" ></td>
+                <td><input type="text"class="form-control mb-2 mr-sm-2"  placeholder="Servicios"name="Serv" ></td>
                 <td><input type="file"class="form-control mb-2 "name="Photos" ></td>
                 <td> 
                 <div class="form-check-inline">
@@ -83,11 +83,16 @@
                     </label>
                     </div>
                 </td>
+                
             </tr>
+            <td> <button class="btn btn-primary" type="submit" >Guardar</button> </td>
+            <td><button class="btn btn-primary" type="button">Modificar</button> </td>
+            <td><button class="btn btn-danger" type="button">Eliminar</button> </td>
             
             </tbody> 
         </table>
-        <button class="btn btn-primary" type="button">Guardar</button>  
+       
+         
         </form>  
 
                 </div>

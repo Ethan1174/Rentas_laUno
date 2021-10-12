@@ -5,7 +5,7 @@ $nomEst=$_POST['Nombre'];
 $apellidoPE=$_POST['apepat'];
 $apellidoME=$_POST['apema'];
 $correo=$_POST['email'];
-$contraseña=$_POST['contra'];
+$contraseña=$_POST['pass'];
 $telE=$_POST['cel'];
 $dephotel=$_POST['dep_or_hotel'];
 

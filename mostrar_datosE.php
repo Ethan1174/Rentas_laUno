@@ -40,8 +40,8 @@
               <td><?php echo $row['num_tel'];?></td>
               <td><?php echo $row['contra'];?></td>
               <td><?php echo $row['dep_hotel'];?></td>
-              <td><a href ="Actualizar_datoE.php?id=<?php echo $row['Id_due'];?>" class= "btn btn-primary " role ="button">Actualizar</a></td>
-              <td><a href ="eliminar_estudiantes.php?id=<?php echo $row['Id_due'];?>" class= "btn btn-danger" role ="button">Eliminar</a></td>
+              <td><a href ="Actualizar_datosE.php?id=<?php echo $row['Id_due'];?>" class= "btn btn-primary " role ="button">Actualizar</a></td>
+              <td><a href ="eliminar_arrendador.php?id=<?php echo $row['Id_due'];?>" class= "btn btn-danger" role ="button">Eliminar</a></td>
 
               </tr>
           <?php } ?>

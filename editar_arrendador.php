@@ -5,7 +5,7 @@ $IdDue = $_GET['Id_due'];
 $query = "select * from dueño_renta where Id_due = '$IdDue'";
 
 $resultado = $mysqli->query($query);
-$row=$resultado->fetch_assoc();
+$row=$resultado->fetch_assoc($resultado);
 ?>
 <?php require 'librerias.php';?>
 <!DOCTYPE html>
